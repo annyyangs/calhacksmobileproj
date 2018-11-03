@@ -10,13 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var titleopen: UILabel!
+    @IBOutlet var abby: UIView!
     
+    @IBOutlet weak var firstbutton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
-    @IBOutlet var abby: UIView!
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        print("Hello world@")
+        self.performSegue(withIdentifier: "MyCoolSegue", sender: nil)
+    }
 }
 
