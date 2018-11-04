@@ -11,16 +11,28 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var titleopen: UILabel!
     @IBOutlet var abby: UIView!
-    
     @IBOutlet weak var firstbutton: UIButton!
+    var hcounter: Int!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        hcounter = 20
     }
-
+    
+    
     @IBAction func buttonPressed(_ sender: UIButton) {
-        print("Hello world@")
         self.performSegue(withIdentifier: "MyCoolSegue", sender: nil)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.destination is ViewControllerHome {
+            let iv = segue.destination as? ViewControllerHome
+            iv?.counter = hcounter
+        }
+    }
+    
+   
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		995A81DE218F4C3400204109 /* EnergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995A81DD218F4C3400204109 /* EnergyViewController.swift */; };
 		997EBEB2218E41A900BE1C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997EBEB1218E41A900BE1C6C /* AppDelegate.swift */; };
 		997EBEB4218E41A900BE1C6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997EBEB3218E41A900BE1C6C /* ViewController.swift */; };
 		997EBEB7218E41A900BE1C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997EBEB5218E41A900BE1C6C /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		997EBEBC218E41AB00BE1C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997EBEBA218E41AB00BE1C6C /* LaunchScreen.storyboard */; };
 		997EBEC7218E41AB00BE1C6C /* calhacksflopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997EBEC6218E41AB00BE1C6C /* calhacksflopTests.swift */; };
 		997EBED2218E41AB00BE1C6C /* calhacksflopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997EBED1218E41AB00BE1C6C /* calhacksflopUITests.swift */; };
+		997EBEE0218F08CA00BE1C6C /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997EBEDF218F08CA00BE1C6C /* ViewControllerHome.swift */; };
+		997EBEE2218F097200BE1C6C /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997EBEE1218F097200BE1C6C /* FoodViewController.swift */; };
+		997EBEE4218F09B000BE1C6C /* TransViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997EBEE3218F09B000BE1C6C /* TransViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		995A81DD218F4C3400204109 /* EnergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyViewController.swift; sourceTree = "<group>"; };
 		997EBEAE218E41A900BE1C6C /* calhacksflop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calhacksflop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997EBEB1218E41A900BE1C6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		997EBEB3218E41A900BE1C6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		997EBECD218E41AB00BE1C6C /* calhacksflopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calhacksflopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		997EBED1218E41AB00BE1C6C /* calhacksflopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calhacksflopUITests.swift; sourceTree = "<group>"; };
 		997EBED3218E41AB00BE1C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997EBEDF218F08CA00BE1C6C /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
+		997EBEE1218F097200BE1C6C /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		997EBEE3218F09B000BE1C6C /* TransViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				997EBEB1218E41A900BE1C6C /* AppDelegate.swift */,
+				995A81DD218F4C3400204109 /* EnergyViewController.swift */,
 				997EBEB3218E41A900BE1C6C /* ViewController.swift */,
+				997EBEE1218F097200BE1C6C /* FoodViewController.swift */,
+				997EBEE3218F09B000BE1C6C /* TransViewController.swift */,
+				997EBEDF218F08CA00BE1C6C /* ViewControllerHome.swift */,
 				997EBEB5218E41A900BE1C6C /* Main.storyboard */,
 				997EBEB8218E41AB00BE1C6C /* Assets.xcassets */,
 				997EBEBA218E41AB00BE1C6C /* LaunchScreen.storyboard */,
@@ -257,6 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				997EBEB4218E41A900BE1C6C /* ViewController.swift in Sources */,
+				997EBEE0218F08CA00BE1C6C /* ViewControllerHome.swift in Sources */,
+				995A81DE218F4C3400204109 /* EnergyViewController.swift in Sources */,
+				997EBEE4218F09B000BE1C6C /* TransViewController.swift in Sources */,
+				997EBEE2218F097200BE1C6C /* FoodViewController.swift in Sources */,
 				997EBEB2218E41A900BE1C6C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
